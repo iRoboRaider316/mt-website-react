@@ -1,0 +1,206 @@
+/* @font-face { font-family: Generation; src: url(../generation/Generation.ttf); }  */
+
+:root {
+    --skyblue: #abffff;
+    --cyan: cyan;
+    --nightskyblue: #3b2c6e;
+    --purple: #880088;
+    --lavender: #e7a6f0;
+
+    --overlaycolor: #00b7ff80;
+    --white: #FFFFFF;
+    --notblack: #111111;
+    --grey: #666666;
+}
+
+body {
+    background: var(--bg);
+    background-image: linear-gradient(var(--overlaycolor),var(--overlaycolor)), url(./../../../public/3264451.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    color: var(--fontColor);
+    font-family: helvetica;
+    text-align: center;
+}
+
+.light-theme {
+    --bg: var(--skyblue);
+    --fontColor: var(--notblack);
+    --linkColorUnvisited: blue;
+    --linkColorVisited: var(--purple);
+    --buttonBg: var(--skyblue);
+    --buttonFontColor: var(--notblack);
+    --headerBg: var(--white);
+    --projectBorder: var(--cyan);
+    --projectBorderHover: yellow;
+}
+
+.dark-theme {
+    --bg: var(--notblack);
+    --fontColor: var(--skyblue);
+    --linkColorUnvisited: blue;
+    --linkColorVisited: var(--lavender);
+    --buttonBg: var(--nightskyblue);
+    --buttonFontColor: var(--white);
+    --headerBg: var(--grey);
+    --projectBorder: black;
+    --projectBorderHover: var(--cyan);
+}
+
+#header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100px;
+    background-color: var(--headerBg);
+
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+#header h1{
+    transform: translateY(30%);
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+#projects-region {
+    width: 800px;
+    height: 150px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: auto;
+    position: fixed;
+    background-color: var(--bg);
+
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#prototypes-region {
+    width: 800px;
+    height: 150px;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: auto;
+    position: fixed;
+    background-color: var(--bg);
+
+    display: grid;
+    /* grid-template-rows: 50% 50%; */
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#project1 {
+    grid-column: 1 / 2;
+    background-image: url(./../../../public/BouncingBob.png);
+}
+
+#project2 {
+    grid-column: 2 / 3;
+    background-image: url(./../../../public/TheRuinsTrim.png);
+}
+
+#project3 {
+    grid-column: 3 / 4;
+    background-image: url(./../../../public/SpunkySpore.png);
+}
+
+#project4 {
+    grid-column: 1 / 2;
+    background-image: url(./../../../public/2AAHDT.png);
+}
+
+#project5 {
+    grid-column: 2 / 3;
+    background-image: url(./../../../public/StevesAdventure.png);
+}
+
+#project6 {
+    grid-column: 3 / 4;
+    background-image: url(./../../../public/1BUAT.png);
+}
+
+#footer {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--headerBg);
+}
+
+.theme-button {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--buttonFontColor);
+    background-color: var(--buttonBg);
+}
+
+.theme-button:hover {
+    background-color: orange;
+}
+
+.theme-button:active {
+    background-color: yellow;
+}
+
+.project {
+    background-color: orange;
+    background-size: cover;
+    border: 5px solid;
+    border-color: var(--projectBorder);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project:hover{
+    background-color: orange;
+    border: 5px solid;
+    border-color: var(--projectBorderHover);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project p {
+    background-color: yellow;
+    color: var(--notblack);
+    margin: 0px;
+    padding: 2px;
+}
+
+.project a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+ /* unvisited link */
+a:link {
+    color: var(--linkColorUnvisited);
+}
+  
+  /* visited link */
+a:visited {
+    color: var(--linkColorVisited);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: orange;
+}
+  
+  /* selected link */
+a:active {
+    color: yellow;
+} 
