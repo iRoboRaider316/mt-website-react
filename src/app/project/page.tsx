@@ -1,8 +1,10 @@
+import ThemeButton from "./theme-button"
+
 export default function Page() {
     return (
         <main>
             <div id="header">
-            <button className="theme-button">Light</button>
+            <ThemeButton/>
             <h1>MISTER TELESCOPE</h1>
             </div>
             {/* 

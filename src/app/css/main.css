@@ -6,11 +6,35 @@
     --nightskyblue: #3b2c6e;
     --purple: #880088;
     --lavender: #e7a6f0;
-
-    --overlaycolor: #00b7ff80;
     --white: #FFFFFF;
     --notblack: #111111;
     --grey: #666666;
+}
+
+.light-theme {
+    --bg: var(--skyblue);
+    --fontColor: var(--notblack);
+    --linkColorUnvisited: blue;
+    --linkColorVisited: var(--purple);
+    --buttonBg: var(--skyblue);
+    --buttonFontColor: var(--notblack);
+    --headerBg: var(--white);
+    --projectBorder: var(--cyan);
+    --projectBorderHover: yellow;
+    --overlaycolor: #00b7ff80;
+}
+
+.dark-theme {
+    --bg: var(--notblack);
+    --fontColor: var(--skyblue);
+    --linkColorUnvisited: blue;
+    --linkColorVisited: var(--lavender);
+    --buttonBg: var(--nightskyblue);
+    --buttonFontColor: var(--white);
+    --headerBg: var(--grey);
+    --projectBorder: black;
+    --projectBorderHover: var(--cyan);
+    --overlaycolor: #00000000;
 }
 
 body {
@@ -25,35 +49,15 @@ body {
     text-align: center;
 }
 
-.light-theme {
-    --bg: var(--skyblue);
-    --fontColor: var(--notblack);
-    --linkColorUnvisited: blue;
-    --linkColorVisited: var(--purple);
-    --buttonBg: var(--skyblue);
-    --buttonFontColor: var(--notblack);
-    --headerBg: var(--white);
-    --projectBorder: var(--cyan);
-    --projectBorderHover: yellow;
-}
-
-.dark-theme {
-    --bg: var(--notblack);
-    --fontColor: var(--skyblue);
-    --linkColorUnvisited: blue;
-    --linkColorVisited: var(--lavender);
-    --buttonBg: var(--nightskyblue);
-    --buttonFontColor: var(--white);
-    --headerBg: var(--grey);
-    --projectBorder: black;
-    --projectBorderHover: var(--cyan);
-}
-
 #header {
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
+
+    display: flex;
+    align-items: center;
+
     height: 100px;
     background-color: var(--headerBg);
 
@@ -62,7 +66,10 @@ body {
 }
 
 #header h1{
-    transform: translateY(30%);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    
     text-align: center;
     font-style: oblique;
     font-size: 40px;
@@ -86,7 +93,7 @@ body {
 #prototypes-region {
     width: 800px;
     height: 150px;
-    bottom: 150px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, 0);
     margin: auto;
@@ -138,18 +145,18 @@ body {
 }
 
 .theme-button {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    margin: 25px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: none;
     color: var(--buttonFontColor);
     background-color: var(--buttonBg);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .theme-button:hover {
+    color: var(--white);
     background-color: orange;
 }
 
