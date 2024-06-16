@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
-import "./../css/main.css";
+import { Inter } from "next/font/google";
+import "../css/globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,6 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div>{children}</div>
+    <html lang="en">
+      <body className={inter.className + " light-theme"}>{children}</body>
+    </html>
   );
 }

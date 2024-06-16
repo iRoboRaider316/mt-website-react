@@ -34,7 +34,7 @@
     --headerBg: var(--grey);
     --projectBorder: black;
     --projectBorderHover: var(--cyan);
-    --overlaycolor: #00000000;
+    --overlaycolor: #00000066;
 }
 
 body {
