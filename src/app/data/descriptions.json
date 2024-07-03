@@ -1,0 +1,104 @@
+{
+    "descriptions": [
+        {
+            "project": "Pillars of Light",
+            "text": "A Senior Design Project made by me and two other friends, Pillars of Light is a 1st-Person puzzle game developed in Unreal Engine where the player explores an interactive set of levels to solve puzzles while avoiding enemies along the way. Ultimately, your goal is to light a beacon that can (hopefully) signal to your crew that you are still alive and need to be rescued.\n\nThis game highlights the utilization of UE5's Blueprint Visual Scripting as well as a variety of level designing features. These game mechanics provide a glimpse behind the game engine's ability to foster engagement and interaction. It also serves as a demonstration of the game design process for other game developers to gain insight and takeaways from.",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Bouncing Bob",
+            "text": "Bouncing Bob is a Computer Graphics class project designed by me and three other friends. It is a 2D physics-based puzzle game made in Unity where you must guide a little bouncing robot named Bob through an expansive laboratory and help him escape by moving the platforms within each level, often using momentum to your advantage. There are 20 levels in total, with each one building upon previous levels, testing your skills further, and culminating in a final challenge that - fair warning - is hard. This project is also notable in that it taught me how to best stay focused in completing a fully fleshed out video game over a period of months or even years.",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "The Ruins",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Spunky Spore",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Aimer Sans Voir",
+            "text": "Discover love...and checkmate. Play as a character who is looking to become a chess champion, and perhaps you will find love along the way.\n\ne",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "2.5D Test",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Steve's Adventure",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "One Block Upon A Time",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Rise To Battle",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Tetris PvE",
+            "text": "",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        }
+    ]
+}
