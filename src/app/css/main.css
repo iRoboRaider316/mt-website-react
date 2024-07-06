@@ -130,17 +130,17 @@ body {
     background-image: url(./../../../public/SpunkySpore.png);
 }
 
-#project4 {
+#project5 {
     grid-column: 1 / 2;
     background-image: url(./../../../public/2AAHDT.png);
 }
 
-#project5 {
+#project6 {
     grid-column: 2 / 3;
     background-image: url(./../../../public/StevesAdventure.png);
 }
 
-#project6 {
+#project7 {
     grid-column: 3 / 4;
     background-image: url(./../../../public/1BUAT.png);
 }

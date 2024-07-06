@@ -4,38 +4,45 @@ import ProjectButton from "./props/project-button"
 import desc_data from './data/descriptions.json';
 
 export default function Page() {
+    {/* 
+    All Projects:
+    Pillars Of Light
+    The Ruins
+    Spunky Spore
+    Bouncing Bob
+    Aimer Sans Voir
+
+    All Prototypes
+    2.5D Test
+    Steve's Adventure
+    One Block Upon A Time
+    Rise To Battle
+    Tetris AI
+    */}
+    const projects=[];
+    const prototypes=[];
+    for(let i = 1; i < 4; i++) {
+        projects.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text}/>);
+    }
+
+    for(let i = 5; i < 8; i++) {
+        prototypes.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text}/>);
+    }
+
     return (
         <main>
             <div id="header">
             <ThemeButton/>
             <h1>MISTER TELESCOPE</h1>
             </div>
-            {/* 
-            All Projects:
-            Pillars Of Light
-            The Ruins
-            Spunky Spore
-            Bouncing Bob
-            Aimer Sans Voir
-
-            All Prototypes
-            2.5D Test
-            Steve's Adventure
-            One Block Upon A Time
-            Rise To Battle
-            Tetris AI
-            */}
+            
             <div id="slide-left">
                 <p id="project-description">Wow, you can slide the text!</p>
                 <div id="projects-region">
-                    <ProjectButton projectID="project1" projectName={desc_data.descriptions[1].project}/>
-                    <ProjectButton projectID="project2" projectName={desc_data.descriptions[2].project}/>
-                    <ProjectButton projectID="project3" projectName={desc_data.descriptions[3].project}/>
+                    {projects}
                 </div>
                 <div id="prototypes-region">
-                    <ProjectButton projectID="project4" projectName={desc_data.descriptions[5].project}/>
-                    <ProjectButton projectID="project5" projectName={desc_data.descriptions[6].project}/>
-                    <ProjectButton projectID="project6" projectName={desc_data.descriptions[7].project}/>
+                    {prototypes}
                 </div>
             </div>
             <div id="footer">
