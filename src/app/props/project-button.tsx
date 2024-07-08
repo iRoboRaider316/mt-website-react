@@ -8,13 +8,13 @@ export default function ProjectButton(props: {projectID: number, projectName: st
         /* Slide the text over */
         const elem = document.getElementById("slide-left");
         if(elem) {
-            elem.style["left"] = "-50%";
+            elem.style["left"] = "-50vw";
         }
         
         /* Update the project description box */
         const descBox = document.getElementById("project-description");
         if(descBox) {
-            descBox.textContent = props.projectDescText;
+            descBox.innerHTML = props.projectDescText;
         }
     }
 

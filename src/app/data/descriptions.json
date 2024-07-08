@@ -12,7 +12,7 @@
         },
         {
             "project": "Bouncing Bob",
-            "text": "Bouncing Bob is a Computer Graphics class project designed by me and three other friends. It is a 2D physics-based puzzle game made in Unity where you must guide a little bouncing robot named Bob through an expansive laboratory and help him escape by moving the platforms within each level, often using momentum to your advantage. There are 20 levels in total, with each one building upon previous levels, testing your skills further, and culminating in a final challenge that - fair warning - is hard. This project is also notable in that it taught me how to best stay focused in completing a fully fleshed out video game over a period of months or even years.",
+            "text": "Bouncing Bob is a Computer Graphics class project designed by me and three other friends. It is a 2D physics-based puzzle game made in Unity where you must guide a little bouncing robot named Bob through an expansive laboratory and help him escape by moving the platforms within each level, often using momentum to your advantage. There are 20 levels in total, with each one building upon previous levels, testing your skills further, and culminating in a final challenge that - fair warning - is hard. <br/><br/>This project is also notable in that it taught me how to best stay focused in completing a fully fleshed out video game over a period of months or even years.",
             "outside_link": "",
             "download_link": "",
             "media": [
@@ -22,7 +22,7 @@
         },
         {
             "project": "The Ruins",
-            "text": "Desc Text 2",
+            "text": "Created by me and one other friend, the Ruins is a small 2D top-down game submitted to a local game jam hosted directly by Cedarville University. In it, you traverse some seemingly endless ruins in search of treasure. What makes these ruins particularly unique is that they procedurally generate as you explore and just might defy euclidian geometry. The Orbs you can place down will be critical to remembering your path. Eventually, however, the treasure will present itself, and you must quickly return to the beginning room and escape before the ruins collapse.<br/><br/>This project is also notable in that since the game jam only ran for 8 hours, my time management skills and focus were given quite the test.",
             "outside_link": "",
             "download_link": "",
             "media": [
@@ -32,7 +32,7 @@
         },
         {
             "project": "Spunky Spore",
-            "text": "Desc Text 3",
+            "text": "Created by me and five other friends - many of whom I met for the first time - and created for Global Game Jam 2023, Spunky Spore is a 2D stealth platformer where Cordy Scept, a teenage mushroom girl who sprouts from within a dangerous cave, must escape to the outside world without being spotted. Although she can't jump, she can grapple onto mycelium within the caves to gain some high ground, as well as hide on mycelium to avoid being spotted. Just be careful, as most of the Mantis Men within the cave can easily tear her apart.<br/><br/>This project is also my first project to incorporate Wwise, which allows composers and sound designers to encode advanced spatial audio into the game environment.",
             "outside_link": "",
             "download_link": "",
             "media": [
@@ -42,7 +42,7 @@
         },
         {
             "project": "Aimer Sans Voir",
-            "text": "Discover love...and checkmate. Play as a character who is looking to become a chess champion, and perhaps you will find love along the way.\n\ne",
+            "text": "\"Discover love... and checkmate. Play as a character who is looking to become a chess champion, and perhaps you will find love along the way.\" - Logan Carter, the Game Composer and the one who first conceived this funny idea\n\nCreated by me and six other friends for Global Game Jam 2024, Aimer Sans Voir was perhaps our most ambitious game jam project so far, as we tried to learn a dialogue tool called Ink and recreate chess gameplay from the ground up. It wasn't fully completed in time, but we did get it to a playable state and present it to the other game jam participants.\n\nAlso, we managed to implement En Passant.",
             "outside_link": "",
             "download_link": "",
             "media": [
