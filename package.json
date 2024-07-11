@@ -1,19 +1,18 @@
 {
   "name": "mt-website-react",
   "version": "0.1.0",
-  "homepage": "https://iroboraider316.github.io/mt-website-react/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "json-loader": "^0.5.7",
-    "next": "14.2.3",
+    "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
