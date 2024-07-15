@@ -25,7 +25,7 @@ export default function Page() {
         projects.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text}/>);
     }
 
-    for(let i = 5; i < 8; i++) {
+    for(let i = 7; i < 10; i++) {
         prototypes.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text}/>);
     }
 

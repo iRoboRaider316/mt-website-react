@@ -51,38 +51,8 @@
             ]
         },
         {
-            "project": "2.5D Test",
-            "text": "Desc Text 5",
-            "outside_link": "",
-            "download_link": "",
-            "media": [
-                "",
-                ""
-            ]
-        },
-        {
-            "project": "Steve's Adventure",
-            "text": "Desc Text 6",
-            "outside_link": "",
-            "download_link": "",
-            "media": [
-                "",
-                ""
-            ]
-        },
-        {
-            "project": "One Block Upon A Time",
-            "text": "Desc Text 7",
-            "outside_link": "",
-            "download_link": "",
-            "media": [
-                "",
-                ""
-            ]
-        },
-        {
             "project": "Rise To Battle",
-            "text": "Desc Text 8",
+            "text": "Created by me and two other friends, Rise To Battle was our submission to Global Game Jam 2022 as well as my very first game jam project. It's a one-on-one battle where your objective is to climb the platforms to the top, with the twist that both players can control platforms on each other's path, resulting in two goals: get to the top, and stop your opponent from doing so.<br/><br/>While the project was never properly finished nor bug-fixed, I did appreciate getting to participate in my first game jam and learn where my game dev needs to best improve in, and I was eager to participate in the next game jam that I could.",
             "outside_link": "",
             "download_link": "",
             "media": [
@@ -92,7 +62,37 @@
         },
         {
             "project": "Tetris PvE",
-            "text": "Desc Text 9",
+            "text": "Tetris PvE is a Machine Learning project designed by me and one other classmate. The idea was simple: develop a Tetris AI that would be able to play the game on its own and compete against a human player. Completing this task, however, was far from simple, as there were many bugs with the vision detection that needed to be ironed out.<br/><br/>While not fully finished in time, the concept proved to be doable and was certainly cool to watch regardless, and we ended up learning a great deal about Machine Learning as a whole thanks to the class.",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "2.5D Test",
+            "text": "The very first prototype I ever developed in Unity, 2.5D Test was a test to know how feasible it would be to develop a 3D Platformer game where the characters were 2D sprites with 3D collision. There are several \"modules\" you can pick up and use to overcome platforming challenges and fend off hostile opponents. I also tested several other game mechanics with this prototype: dialogue, monorail carts and paths, a health system, and a file saving system. Features that have been tweaked heavily over time include collision physics and camera movement.<br/><br/>For now, this prototype is shelved, but I will definitely be using plenty of its features for future projects.",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "Steve's Adventure",
+            "text": "A prototype I began to develop because I was really intrigued by the \"One Block At A Time\" April Fools update for a game called Minecraft, Steve's Adventure is a 2D Platformer where you can pick up blocks, as well as any moving entities, to progress through the game. This prototype is notable because I made an ambitious goal to create my very own collision system based purely on rectangles. It would need to be tweaked as time went on, but even at the beginning it was robust and smooth. Also implemented were individual block hardnesses, peaceful and hostile entities, water, a crafting workbench, and an excel file importer for loading the world.<br/><br/>This project was actually restarted as \"One Block Upon A Time\" in the hopes of developing a more distinct gameplay style. Not having to worry about a DMCA takedown was also a plus.",
+            "outside_link": "",
+            "download_link": "",
+            "media": [
+                "",
+                ""
+            ]
+        },
+        {
+            "project": "One Block Upon A Time",
+            "text": "A prototype I began to develop as a continuation to Steve's Adventure, One Block Upon A Time is a 2D Platformer where the entire terrain is destructable, and you must complete an objective in each level, which can range from reaching the goal or collecting a certain number of resources in time. While picking up blocks is still an option, your best way to traverse is by running really fast and breaking blocks in your way as you run, as well as super jumping to gain height. You can also pick up and throw several animals that have unique gameplay effects, such as a double-jump chicken, a launcher crab, a rocket cat, and an explosive capybara, all of which would provide a clear (though not necessarily correct) path to complete the levels.<br/><br/>I hope to develop this prototype into a fully fleshed-out game one day, but due to time constraints I have to shelve it for now.",
             "outside_link": "",
             "download_link": "",
             "media": [
