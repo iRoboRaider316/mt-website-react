@@ -37,12 +37,17 @@ export default function Page() {
             </div>
             
             <div id="slide-left">
-                <p id="project-description">Wow, you can slide the text!</p>
                 <div id="projects-region">
                     {projects}
                 </div>
                 <div id="prototypes-region">
                     {prototypes}
+                </div>
+                <div id="project-display">
+                    <p id="project-description">Wow, you can slide the text!</p>
+                    <p id="project-links">Links here!</p>
+                    <div id="project-media">
+                    </div>
                 </div>
             </div>
             <div id="footer">
