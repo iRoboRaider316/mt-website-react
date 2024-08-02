@@ -101,7 +101,7 @@ body {
 
 #project-description {
     width: 45%;
-    height: 200px;
+    height: 230px;
 
     background-color: yellow;
     padding: 5px;
@@ -125,6 +125,24 @@ body {
     
     text-align: right;
     margin: 20px;
+}
+
+#return-button {
+    background-color: yellow;
+    border-radius: 10px;
+    border-style: solid;
+    transition: background-color 0.1s, color 0.1s;
+
+    padding: 5px 10px;
+    margin: 20px;
+}
+
+#return-button:hover {
+    background-color: rgb(225, 225, 0);
+}
+
+#return-button:active {
+    background-color: white;
 }
 
 #projects-region {

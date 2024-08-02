@@ -2,6 +2,7 @@ import ThemeButton from "./props/theme-button"
 import ProjectButton from "./props/project-button"
 
 import desc_data from './data/descriptions.json';
+import ReturnButton from "./props/return-button";
 
 export default function Page() {
     {/* 
@@ -48,6 +49,7 @@ export default function Page() {
                     <p id="project-links">Links here!</p>
                     <div id="project-media">
                     </div>
+                    <ReturnButton/>
                 </div>
             </div>
             <div id="footer">
