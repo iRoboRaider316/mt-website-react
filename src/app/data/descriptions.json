@@ -16,8 +16,8 @@
             "outside_link": "None",
             "download_link": "Coming soon",
             "media": [
-                "/_next/static/media/BouncingBob.cde79679.png",
-                ""
+                "/BouncingBob2.png",
+                "/BouncingBob3.png"
             ]
         },
         {
@@ -26,15 +26,16 @@
             "outside_link": "https://mistertelescope.itch.io/the-ruins",
             "download_link": "Coming soon",
             "media": [
-                "/_next/static/media/TheRuinsTrim.d75f96ae.png",
-                ""
+                "/TheRuins1.jpg",
+                "/TheRuins.png",
+                "/TheRuins2.png"
             ]
         },
         {
             "project": "Spunky Spore",
             "text": "Created by me and five other friends - many of whom I met for the first time - and created for Global Game Jam 2023, Spunky Spore is a 2D stealth platformer where Cordy Scept, a teenage mushroom girl who sprouts from within a dangerous cave, must escape to the outside world without being spotted. Although she can't jump, she can grapple onto mycelium within the caves to gain some high ground, as well as hide on mycelium to avoid being spotted. Just be careful, as most of the Mantis Men within the cave can easily tear her apart.<br/><br/>This project is also my first project to incorporate Wwise, which allows composers and sound designers to encode advanced spatial audio into the game environment.",
             "outside_link": "Coming soon",
-            "download_link": "Coming soon",
+            "download_link": "https://v3.globalgamejam.org/2023/games/spunky-spore-3",
             "media": [
                 "",
                 ""

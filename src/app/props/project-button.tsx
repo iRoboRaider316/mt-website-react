@@ -21,9 +21,9 @@ export default function ProjectButton(props: {projectID: number, projectName: st
 
         const media = document.getElementById("project-media");
         if(media) {
-            console.log("Printig");
-            for(let i = 0; i < media.children.length; i++) {
-                media.removeChild(media.children[0]);
+            console.log("Printig -- " + media.children.length + " TO " + props.projectMedia.length);
+            while(media.firstChild != null) {
+                media.removeChild(media.firstChild);
             }
 
             for(let i = 0; i < props.projectMedia.length; i++) {
@@ -34,6 +34,10 @@ export default function ProjectButton(props: {projectID: number, projectName: st
                     media.appendChild(img);
                 }
             }
+
+            media.scrollTo({
+                top: 0
+            })
         }
 
     }
