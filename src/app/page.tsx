@@ -22,7 +22,7 @@ export default function Page() {
     */}
     const projects=[];
     const prototypes=[];
-    for(let i = 1; i < 4; i++) {
+    for(let i = 0; i < 7; i++) {
         projects.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text} projectMedia={desc_data.descriptions[i].media}/>);
     }
 

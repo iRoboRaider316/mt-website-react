@@ -21,7 +21,6 @@ export default function ProjectButton(props: {projectID: number, projectName: st
 
         const media = document.getElementById("project-media");
         if(media) {
-            console.log("Printig -- " + media.children.length + " TO " + props.projectMedia.length);
             while(media.firstChild != null) {
                 media.removeChild(media.firstChild);
             }
