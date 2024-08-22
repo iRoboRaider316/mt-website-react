@@ -6,8 +6,9 @@
             "outside_link": "None; outside of my control",
             "download_link": "None; outside of my control",
             "media": [
-                "",
-                ""
+                "/POL_1.png",
+                "/POL_2.png",
+                "/POL_3.png"
             ]
         },
         {
@@ -35,30 +36,21 @@
             "project": "Spunky Spore",
             "text": "Created by me and five other friends - many of whom I met for the first time - and created for Global Game Jam 2023, Spunky Spore is a 2D stealth platformer where Cordy Scept, a teenage mushroom girl who sprouts from within a dangerous cave, must escape to the outside world without being spotted. Although she can't jump, she can grapple onto mycelium within the caves to gain some high ground, as well as hide on mycelium to avoid being spotted. Just be careful, as most of the Mantis Men within the cave can easily tear her apart.<br/><br/>This project is also my first project to incorporate Wwise, which allows composers and sound designers to encode advanced spatial audio into the game environment.",
             "outside_link": "Coming soon",
-            "download_link": "https://v3.globalgamejam.org/2023/games/spunky-spore-3",
+            "download_link": "None; link no longer works :(",
             "media": [
-                "",
-                ""
+                "/SpunkySpore2.jpeg",
+                "/SpunkySpore.png",
+                "/SpunkySpore3.png"
             ]
         },
         {
             "project": "Aimer Sans Voir",
-            "text": "\"Discover love... and checkmate. Play as a character who is looking to become a chess champion, and perhaps you will find love along the way.\" - Logan Carter, the Game Composer and the one who first conceived this funny idea\n\nCreated by me and six other friends for Global Game Jam 2024, Aimer Sans Voir was perhaps our most ambitious game jam project so far, as we tried to learn a dialogue tool called Ink and recreate chess gameplay from the ground up. It wasn't fully completed in time, but we did get it to a playable state and present it to the other game jam participants.\n\nAlso, we managed to implement En Passant.",
+            "text": "\"Discover love... and checkmate. Play as a character who is looking to become a chess champion, and perhaps you will find love along the way.\" - Logan Carter, the Game Composer and the one who first conceived this funny idea<br/><br/>Created by me and six other friends for Global Game Jam 2024, Aimer Sans Voir was perhaps our most ambitious game jam project so far, as we tried to learn a dialogue tool called Ink and recreate chess gameplay from the ground up. It wasn't fully completed in time, but we did get it to a playable state and present it to the other game jam participants.<br/><br/>Also, we managed to implement En Passant.",
             "outside_link": "https://globalgamejam.org/games/2024/aimer-sans-voir-4",
             "download_link": "Coming soon",
             "media": [
-                "",
-                ""
-            ]
-        },
-        {
-            "project": "Rise To Battle",
-            "text": "Created by me and two other friends, Rise To Battle was our submission to Global Game Jam 2022 as well as my very first game jam project. It's a one-on-one battle where your objective is to climb the platforms to the top, with the twist that both players can control platforms on each other's path, resulting in two goals: get to the top, and stop your opponent from doing so.<br/><br/>While the project was never properly finished nor bug-fixed, I did appreciate getting to participate in my first game jam and learn where my game dev needs to best improve in, and I was eager to participate in the next game jam that I could.",
-            "outside_link": "https://v3.globalgamejam.org/2022/games/rise-battle-8",
-            "download_link": "Coming Soon",
-            "media": [
-                "",
-                ""
+                "/AimerSansVoir.png",
+                "/AimerSansVoir2.png"
             ]
         },
         {
@@ -66,6 +58,15 @@
             "text": "Tetris PvE is a Machine Learning project designed by me and one other classmate. The idea was simple: develop a Tetris AI that would be able to play the game on its own and compete against a human player. Completing this task, however, was far from simple, as there were many bugs with the vision detection that needed to be ironed out.<br/><br/>While not fully finished in time, the concept proved to be doable and was certainly cool to watch regardless, and we ended up learning a great deal about Machine Learning as a whole thanks to the class.",
             "outside_link": "None",
             "download_link": "None; not fully finished",
+            "media": [
+                "/TetrisAI.png"
+            ]
+        },
+        {
+            "project": "Rise To Battle",
+            "text": "Created by me and two other friends, Rise To Battle was our submission to Global Game Jam 2022 as well as my very first game jam project. It's a one-on-one battle where your objective is to climb the platforms to the top, with the twist that both players can control platforms on each other's path, resulting in two goals: get to the top, and stop your opponent from doing so.<br/><br/>While the project was never properly finished nor bug-fixed, I did appreciate getting to participate in my first game jam and learn where my game dev needs to best improve in, and I was eager to participate in the next game jam that I could.",
+            "outside_link": "None; link no longer works :(",
+            "download_link": "None;",
             "media": [
                 "",
                 ""
@@ -77,8 +78,9 @@
             "outside_link": "None",
             "download_link": "Coming Soon",
             "media": [
-                "",
-                ""
+                "/2AAHDT.png",
+                "/2AAHDT_2.png",
+                "/2AAHDT_3.png"
             ]
         },
         {
@@ -87,8 +89,9 @@
             "outside_link": "None",
             "download_link": "Coming Soon",
             "media": [
-                "",
-                ""
+                "/StevesAdventure.png",
+                "/StevesAdventure2.png",
+                "/StevesAdventure3.png"
             ]
         },
         {
@@ -97,8 +100,9 @@
             "outside_link": "None",
             "download_link": "Coming Soon",
             "media": [
-                "",
-                ""
+                "/1BUAT_2.png",
+                "/1BUAT_3.png",
+                "/1BUAT_4.png"
             ]
         }
     ]
