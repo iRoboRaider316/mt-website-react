@@ -232,9 +232,10 @@ body {
 
 #project6 {
     grid-column: 7 / 8;
-    /* background-image: url(./../../../public/.png); */
+    background-image: url(./../../../public/RiseToBattleTrim.png);
     background-size: cover;
     background-position: center;
+    background-position-y: 5px;
 }
 
 #project7 {

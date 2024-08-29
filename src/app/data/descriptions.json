@@ -64,12 +64,13 @@
         },
         {
             "project": "Rise To Battle",
-            "text": "Created by me and two other friends, Rise To Battle was our submission to Global Game Jam 2022 as well as my very first game jam project. It's a one-on-one battle where your objective is to climb the platforms to the top, with the twist that both players can control platforms on each other's path, resulting in two goals: get to the top, and stop your opponent from doing so.<br/><br/>While the project was never properly finished nor bug-fixed, I did appreciate getting to participate in my first game jam and learn where my game dev needs to best improve in, and I was eager to participate in the next game jam that I could.",
+            "text": "Created by me and two other friends, Rise To Battle was our submission to Global Game Jam 2022 as well as my very first game jam project. It's a one-on-one battle where your objective is to climb the platforms to the top, with the twist that both players can control platforms on each other's path, resulting in two goals: get to the top, and stop your opponent from doing so.<br/><br/>While the project was never properly finished nor bug-fixed (the pause menu is constantly there, for example), I did appreciate getting to participate in my first game jam and learn where my game dev needs to best improve in, and I was eager to participate in the next game jam that I could.",
             "outside_link": "None; link no longer works :(",
-            "download_link": "None;",
+            "download_link": "Coming Soon",
             "media": [
-                "",
-                ""
+                "/RiseToBattle1.png",
+                "/RiseToBattle2.png",
+                "/RiseToBattle3.png"
             ]
         },
         {
