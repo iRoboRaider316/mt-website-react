@@ -5,7 +5,9 @@ import desc_data from './data/descriptions.json';
 import ReturnButton from "./props/return-button";
 
 export default function Page() {
-    {/* 
+    {
+        
+    /* 
     All Projects:
     Pillars Of Light
     The Ruins
@@ -23,11 +25,21 @@ export default function Page() {
     const projects=[];
     const prototypes=[];
     for(let i = 0; i < 7; i++) {
-        projects.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text} projectMedia={desc_data.descriptions[i].media}/>);
+        projects.push(<ProjectButton key={i} 
+                                     projectID={i} 
+                                     projectName={desc_data.descriptions[i].project} 
+                                     projectDescText={desc_data.descriptions[i].text} 
+                                     projectMedia={desc_data.descriptions[i].media}
+                                     />);
     }
 
     for(let i = 7; i < 10; i++) {
-        prototypes.push(<ProjectButton key={i} projectID={i} projectName={desc_data.descriptions[i].project} projectDescText={desc_data.descriptions[i].text} projectMedia={desc_data.descriptions[i].media}/>);
+        prototypes.push(<ProjectButton key={i} 
+                                       projectID={i} 
+                                       projectName={desc_data.descriptions[i].project} 
+                                       projectDescText={desc_data.descriptions[i].text} 
+                                       projectMedia={desc_data.descriptions[i].media}
+                                       />);
     }
 
     return (
@@ -57,4 +69,5 @@ export default function Page() {
             </div>
         </main>
     );
+    
 }
