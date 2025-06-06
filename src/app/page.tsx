@@ -1,5 +1,6 @@
 import ThemeButton from "./props/theme-button"
 import ProjectButton from "./props/project-button"
+import SlideButton from "./props/slide-button"
 
 import desc_data from './data/descriptions.json';
 import ReturnButton from "./props/return-button";
@@ -50,16 +51,26 @@ export default function Page() {
             </div>
             
             <div id="slide-left">
+                <SlideButton scrollElementName="projects-region" direction="Left"/>
                 <div id="projects-region">
                     {projects}
                 </div>
+                <SlideButton scrollElementName="projects-region" direction="Right"/>
+                
+                <SlideButton scrollElementName="prototypes-region" direction="Left"/>
                 <div id="prototypes-region">
                     {prototypes}
                 </div>
+                <SlideButton scrollElementName="prototypes-region" direction="Right"/>
+
                 <div id="project-display">
                     <p id="project-description">Wow, you can slide the text!</p>
                     <p id="project-links">Links here!</p>
-                    <div id="project-media">
+                    <div id="project-media-viewport">
+                        <SlideButton scrollElementName="project-media" direction="Up"/>
+                        <div id="project-media">
+                        </div>
+                        <SlideButton scrollElementName="project-media" direction="Down"/>
                     </div>
                     <ReturnButton/>
                 </div>

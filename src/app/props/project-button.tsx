@@ -30,6 +30,7 @@ export default function ProjectButton(props: {projectID: number, projectName: st
                 if(props.projectMedia[i] != "") {
                     let img = document.createElement('img');
                     img.src = props.projectMedia[i];
+                    img.classList.add("projectButton")
                     media.appendChild(img);
                 }
             }
