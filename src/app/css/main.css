@@ -1,13 +1,15 @@
 /* @font-face { font-family: Generation; src: url(../generation/Generation.ttf); }  */
 
 :root {
-    --skyblue: #abffff;
+    --skyblue: #9aeeee;
     --cyan: cyan;
+    --faded-cyan: #00DDDD;
     --nightskyblue: #3b2c6e;
     --purple: #880088;
     --lavender: #e7a6f0;
     --white: #FFFFFF;
-    --notblack: #111111;
+    --notwhite: #DDDDDD;
+    --notblack: #333355;
     --grey: #666666;
 }
 
@@ -21,19 +23,25 @@
     --headerBg: var(--white);
     --projectBorder: var(--cyan);
     --projectBorderHover: yellow;
+    --projectTitleColor: yellow;
+    --projectDescriptionBG: #20e7ff80;
+    --returnButtonHover: #dddd00;
     --overlaycolor: #00b7ff80;
 }
 
 .dark-theme {
     --bg: var(--notblack);
-    --fontColor: var(--notblack);
+    --fontColor: var(--notwhite);
     --linkColorUnvisited: blue;
     --linkColorVisited: var(--lavender);
     --buttonBg: var(--nightskyblue);
     --buttonFontColor: var(--white);
     --headerBg: var(--grey);
-    --projectBorder: black;
-    --projectBorderHover: var(--cyan);
+    --projectBorder: #777777;
+    --projectBorderHover: gold;
+    --projectTitleColor: gold;
+    --projectDescriptionBG: #001144AA;
+    --returnButtonHover: #ddcc00;
     --overlaycolor: #001144AA;
 }
 
@@ -113,26 +121,6 @@ body {
     transform: translate(-50%, 0);
     transition: left 0.6s cubic-bezier(0.65, 0, 0.35, 1);
     position: absolute;
-    
-    background-color: blue; /* temporary */
-}
-
-#return-button {
-    background-color: yellow;
-    border-radius: 10px;
-    border-style: solid;
-    transition: background-color 0.1s, color 0.1s;
-
-    padding: 5px 10px;
-    margin: 20px;
-}
-
-#return-button:hover {
-    background-color: rgb(225, 225, 0);
-}
-
-#return-button:active {
-    background-color: white;
 }
 
 #projects-region {
@@ -331,10 +319,14 @@ body {
 }
 
 .project p {
-    background-color: yellow;
+    background-color: var(--projectTitleColor);
     color: var(--notblack);
     margin: 0px;
     padding: 2px;
+    /* border: 5px solid; */
+    border-color: var(--projectTitleColor);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .project a:hover, a:visited, a:link, a:active {
@@ -347,7 +339,7 @@ body {
     left: 100%;
     top: 0px;
     position: fixed;
-    background-color: orange;
+    background-color: #abffff33;
     
     text-align: left;
     margin: 20px;
@@ -358,7 +350,7 @@ body {
     width: 40%;
     height: 230px;
 
-    background-color: yellow;
+    background-color: var(--projectDescriptionBG);
     padding: 5px;
     margin: 20px;
     overflow-y: scroll;
@@ -391,6 +383,27 @@ body {
 #project-media::-webkit-scrollbar {
     display: none;
 } 
+
+#return-button {
+    background-color: var(--bg);
+    border-radius: 10px;
+    border-style: solid;
+    transition: background-color 0.1s, color 0.1s;
+
+    padding: 5px 10px;
+    margin: 20px;
+
+    
+    color: var(--fontColor);
+}
+
+#return-button:hover {
+    background-color: var(--returnButtonHover);
+}
+
+#return-button:active {
+    background-color: white;
+}
 
 #footer {
     bottom: -100px;

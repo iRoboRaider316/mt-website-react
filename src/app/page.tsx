@@ -65,7 +65,7 @@ export default function Page() {
 
                 <div id="project-display">
                     <p id="project-description">Wow, you can slide the text!</p>
-                    <p id="project-links">Links here!</p>
+                    <p id="project-links">Links coming soon!</p>
                     <div id="project-media-viewport">
                         <SlideButton scrollElementName="project-media" direction="Up"/>
                         <div id="project-media">
